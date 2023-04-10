@@ -1,0 +1,23 @@
+h1
+{
+    /*atributos*/
+    color: rgb(55, 0, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Valores*/
+
+}
+h2
+{
+    color:#de3a19;
+}
+#second_h1{
+    color:#ff55aa;
+}
+.container{
+    border:1px black solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+}
