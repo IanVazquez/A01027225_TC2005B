@@ -1,0 +1,102 @@
+/* Propiedad border */
+.border-example {
+    border: 2px solid black;
+  }
+  
+  /* Propiedades border-left, border-right, border-top, border-bottom */
+  .border-sides-example {
+    border-left: 2px solid black;
+    border-right: 2px dashed blue;
+    border-top: 2px dotted red;
+    border-bottom: 2px double green;
+  }
+  
+  /* Propiedad border-radius */
+  .border-radius-example {
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  /* Propiedad background-image */
+  .background-example {
+    background-image: url('../../imagenes/Color_negro.jpg');
+    color: white;
+  }
+  
+  /* Propiedad color */
+  .color-example {
+    color: red;
+  }
+  
+  /* Propiedad font */
+  .font-example {
+    font: italic bold 20px/30px Arial, sans-serif;
+  }
+  
+  /* Propiedad font-family */
+  .font-family-example {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  /* Propiedades font-style, font-weight */
+  .font-style-example {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  /* Propiedades width, height */
+  .width-height-example {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+  }
+  
+  /* Propiedad list-style */
+  .list-style-example li {
+    list-style: square;
+  }
+  
+  /* Propiedad margin */
+  .margin-example {
+    margin: 20px;
+    border: 1px solid black;
+  }
+  
+  /* Propiedad padding */
+  .padding-example {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  /* Propiedad overflow */
+  .overflow-example {
+    overflow: scroll;
+  }
+  
+  /* Propiedad display */
+  .display-example {
+    display: block;
+  }
+  
+  /* Propiedad position */
+.position-example {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    border: 1px solid black;
+  }
+/* Propiedad filter */
+.filter-example {
+    background-image: url('../../imagenes/html.png');
+    filter: grayscale(100%);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+  }
+    
