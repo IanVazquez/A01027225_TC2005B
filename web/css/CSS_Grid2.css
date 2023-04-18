@@ -25,14 +25,15 @@ body {
 .grid-item-1{
     grid-area: header;
     background-color: rgb(255, 210, 114);
+    grid-row: 1 / span 2;
 }
 .grid-item-2{
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 6;
     grid-column: 1/ span 2;
     background-color: rgb(40, 108, 49);
 }
 .grid-item-3{
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 3;
     grid-column: 3/ span 2;
     background-color: rgb(93, 230, 198);
 }
@@ -40,11 +41,13 @@ body {
     padding: 10px;
     border: 1px white solid;
     background-color: rgb(194, 81, 0);
+    grid-row: 6 / span 3;
     min-height: 0;
 }
 .grid-item5{
     padding: 10px;
     border: 1px white solid;
     background-color: rgb(205, 145, 6);
+    grid-row: 6 / span 3;
     min-height: 0;
 }
